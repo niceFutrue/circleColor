@@ -1,0 +1,14 @@
+<view class="picker_view">
+  <canvas class="picker" id="colorPicker" style="width: 280px;height: 280px;" type="2d"  ></canvas>
+  <canvas class="picker_ball" id="colorPickerSlider" bindtouchmove="touchMove" bindtouchstart="touchStart" style="width: 280px;height: 280px;" type="2d" ></canvas>
+</view>
+
+<view class="show_num">RGB：{{rgbStr}}</view>
+<view class="flex">
+  <view bindtap="tab" data-num="1" class="tab">红色</view>
+  <view bindtap="tab" data-num="2" class="tab">绿色</view>
+  <view bindtap="tab" data-num="3" class="tab">蓝色</view>
+</view>
+
+<view class="footer_text">微信：xr571247942（逸曦穆泽）</view>
+
